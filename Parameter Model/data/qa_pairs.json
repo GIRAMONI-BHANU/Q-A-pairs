@@ -1,0 +1,126 @@
+[
+    {
+        "question": "How do I create a new Git branch and switch to it?",
+        "answer": "To create a new Git branch and switch to it, you can use: git checkout -b branch_name"
+    },
+    {
+        "question": "How do I compress a directory using tar?",
+        "answer": "To compress a directory using tar with gzip compression, use: tar -czf archive.tar.gz directory_name"
+    },
+    {
+        "question": "How do I search for text in files recursively?",
+        "answer": "To search for text in files recursively, use grep: grep -r \"search_text\" directory_path"
+    },
+    {
+        "question": "How do I create a Python virtual environment?",
+        "answer": "To create a Python virtual environment, use: python -m venv venv_name"
+    },
+    {
+        "question": "How do I list all files including hidden ones?",
+        "answer": "To list all files including hidden ones, use: ls -la"
+    },
+    {
+        "question": "How do I check disk usage of directories?",
+        "answer": "To check disk usage of directories, use: du -h --max-depth=1 | sort -hr"
+    },
+    {
+        "question": "How do I find large files in Linux?",
+        "answer": "To find large files, use: find / -type f -size +100M -exec ls -lh {} \\;"
+    },
+    {
+        "question": "How do I kill a process by name?",
+        "answer": "To kill a process by name, use: pkill process_name or killall process_name"
+    },
+    {
+        "question": "How do I check system memory usage?",
+        "answer": "To check system memory usage, use: free -h"
+    },
+    {
+        "question": "How do I check CPU information?",
+        "answer": "To check CPU information, use: cat /proc/cpuinfo"
+    },
+    {
+        "question": "How do I find files modified in the last 24 hours?",
+        "answer": "To find recently modified files, use: find . -type f -mtime -1"
+    },
+    {
+        "question": "How do I check running processes?",
+        "answer": "To check running processes, use: ps aux | grep process_name"
+    },
+    {
+        "question": "How do I add an SSH key to GitHub?",
+        "answer": "1. Generate key: ssh-keygen -t ed25519 -C \"email@example.com\"\n2. Copy key: cat ~/.ssh/id_ed25519.pub\n3. Add to GitHub settings"
+    },
+    {
+        "question": "How do I check Git commit history?",
+        "answer": "To check Git commit history, use: git log --oneline --graph --decorate"
+    },
+    {
+        "question": "How do I undo the last Git commit?",
+        "answer": "To undo the last commit without losing changes, use: git reset --soft HEAD~1"
+    },
+    {
+        "question": "How do I rename a Git branch?",
+        "answer": "To rename current branch: git branch -m new_name\nTo rename specific branch: git branch -m old_name new_name"
+    },
+    {
+        "question": "How do I merge a Git branch into main?",
+        "answer": "1. Switch to main: git checkout main\n2. Pull latest: git pull\n3. Merge branch: git merge branch_name"
+    },
+    {
+        "question": "How do I install Python packages in a virtual environment?",
+        "answer": "1. Activate venv: source venv/bin/activate (or .\\venv\\Scripts\\activate on Windows)\n2. Install package: pip install package_name"
+    },
+    {
+        "question": "How do I create requirements.txt from current environment?",
+        "answer": "To create requirements.txt, use: pip freeze > requirements.txt"
+    },
+    {
+        "question": "How do I find and replace text in multiple files?",
+        "answer": "To find and replace text, use: find . -type f -name \"*.txt\" -exec sed -i 's/old_text/new_text/g' {} +"
+    },
+    {
+        "question": "How do I check network connections?",
+        "answer": "To check network connections, use: netstat -tuln"
+    },
+    {
+        "question": "How do I monitor real-time system resources?",
+        "answer": "To monitor system resources in real-time, use: top or htop"
+    },
+    {
+        "question": "How do I create a symbolic link?",
+        "answer": "To create a symbolic link, use: ln -s target_path link_path"
+    },
+    {
+        "question": "How do I change file permissions?",
+        "answer": "To change file permissions, use: chmod permissions filename (e.g., chmod 755 script.sh)"
+    },
+    {
+        "question": "How do I check file type?",
+        "answer": "To check file type, use: file filename"
+    },
+    {
+        "question": "How do I extract a tar.gz file?",
+        "answer": "To extract a tar.gz file, use: tar -xzf archive.tar.gz"
+    },
+    {
+        "question": "How do I check disk space?",
+        "answer": "To check disk space, use: df -h"
+    },
+    {
+        "question": "How do I find duplicate files?",
+        "answer": "To find duplicate files, use: find . -type f -exec md5sum {} \\; | sort | uniq -d -w32"
+    },
+    {
+        "question": "How do I check open ports?",
+        "answer": "To check open ports, use: sudo lsof -i -P -n | grep LISTEN"
+    },
+    {
+        "question": "How do I create multiple directories at once?",
+        "answer": "To create multiple directories, use: mkdir -p dir1/subdir1 dir2/subdir2"
+    },
+    {
+        "question": "How do I count lines in a file?",
+        "answer": "To count lines in a file, use: wc -l filename"
+    }
+] 
